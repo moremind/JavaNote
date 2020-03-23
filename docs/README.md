@@ -4,9 +4,9 @@
 ### JVM优化问题
 
 ### 微信公众号
-![微信公众号](../img/code.jpg)
-![微信小程序](../img/qrcode.jpg)
-![微信号](../img/mycode.jpg)
+![微信公众号](https://javanorth-1251602255.cos.ap-chengdu.myqcloud.com/markdown/code.jpg)
+![微信小程序](https://javanorth-1251602255.cos.ap-chengdu.myqcloud.com/markdown/qrcode.jpg)
+![微信号](https://javanorth-1251602255.cos.ap-chengdu.myqcloud.com/markdown/mycode.jpg)
 
 ### Contact Me
 邮箱： hefengen@hotmail.com
