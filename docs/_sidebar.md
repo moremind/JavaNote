@@ -4,8 +4,7 @@
     
 * **Java基础**
 
-  
-  * [实用的Java编程技巧之命名攻略](javabasic/实用的Java编程技巧之命名攻略)
+    * [实用的Java编程技巧之命名攻略](javabasic/实用的Java编程技巧之命名攻略)
   
 * **Java进阶-多线程高并发**
 
