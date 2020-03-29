@@ -3,6 +3,7 @@
     * [Java基础](notes/Java基础)
     * [面向对象上](notes/面向对象上)
     * [面向对象下](notes/面向对象下)
+    * [Java函数式设计](notes/Java函数式设计)
     
 * **Java基础**
 
