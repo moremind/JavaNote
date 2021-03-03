@@ -312,7 +312,7 @@ destroy@~1.0.4:
   resolved "https://registry.npm.taobao.org/destroy/download/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-docsify-cli@^4.4.0:
+docsify-cli@^4.4.2:
   version "4.4.2"
   resolved "https://registry.npm.taobao.org/docsify-cli/download/docsify-cli-4.4.2.tgz#f4e788ff111e00a15d7727156c2bef04d021aa56"
   integrity sha1-9OeI/xEeAKFddycVbCvvBNAhqlY=

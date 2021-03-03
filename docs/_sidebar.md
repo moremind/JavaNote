@@ -1,32 +1,42 @@
-* 小马哥Java笔记
- * 第一节
-
-    * [Java基础](notes/Java基础)
-    * [面向对象上](notes/面向对象上)
-    * [面向对象下](notes/面向对象下)
-    * [Java函数式设计](notes/Java函数式设计)
-* Java基础
-  
-  * [实用的Java编程技巧之命名攻略](javabasic/实用的Java编程技巧之命名攻略)
-* Java进阶-多线程高并发
-* JVM优化
-
-  * [JVM基础](jvm/JVM基础)
-
-
-* Java2E框架-Spring
-* Web前端
-* 数据结构与算法
-
-  * 数据结构
-  
-    * 堆栈
-    * 二叉树
-    * 图论
-    * 查找算法
-    * 排序算法
-  * 算法
-* 操作系统
-* 计算机网络
-* 设计模式
-* [plan](myplan)
+- [java-notes](java-notes/)
+  - [java-basis](java-notes/java-basis/)
+    - [stage-1](java-notes/java-basis/stage-1/)
+      - [Java函数式设计](java-notes/java-basis/stage-1/Java函数式设计.md)
+      - [Java基础](java-notes/java-basis/stage-1/Java基础.md)
+      - [面向对象上](java-notes/java-basis/stage-1/面向对象上.md)
+      - [面向对象下](java-notes/java-basis/stage-1/面向对象下.md)
+    - [stage-2](java-notes/java-basis/stage-2/)
+      - [集合框架](java-notes/java-basis/stage-2/集合框架.md)
+      - [集合框架算法应用](java-notes/java-basis/stage-2/集合框架算法应用.md)
+      - [集合框架高级应用](java-notes/java-basis/stage-2/集合框架高级应用.md)
+    - [stage-3](java-notes/java-basis/stage-3/)
+      - [1.线程与进程](java-notes/java-basis/stage-3/1.线程与进程.md)
+      - [2.Java并发编程基础](java-notes/java-basis/stage-3/2.Java并发编程基础.md)
+    - [实用的Java编程技巧之命名攻略](java-notes/java-basis/实用的Java编程技巧之命名攻略.md)
+  - [jvm](java-notes/jvm/)
+    - [JVM基础](java-notes/jvm/JVM基础.md)
+  - [springboot](java-notes/springboot/)
+    - [4.springboot-web](java-notes/springboot/4.springboot-web.md)
+    - [5.web容器](java-notes/springboot/5.web容器.md)
+    - [6.数据库JDBC](java-notes/springboot/6.数据库JDBC.md)
+    - [7.mybatis](java-notes/springboot/7.mybatis.md)
+  - [springcloud](java-notes/springcloud/)
+    - [2.springcloud-配置](java-notes/springcloud/2.springcloud-配置.md)
+    - [3.springcloud-config-server](java-notes/springcloud/3.springcloud-config-server.md)
+    - [4.服务发现注册](java-notes/springcloud/4.服务发现注册.md)
+    - [5.高可用服务治理](java-notes/springcloud/5.高可用服务治理.md)
+    - [6.服务负载均衡](java-notes/springcloud/6.服务负载均衡.md)
+    - [7.spring-cloud-Netflix-Ribbon源码分析](java-notes/springcloud/7.spring-cloud-Netflix-Ribbon源码分析.md)
+    - [8.springcloud服务短路](java-notes/springcloud/8.springcloud服务短路.md)
+    - [9.Hystrix源码解读](java-notes/springcloud/9.Hystrix源码解读.md)
+	- [10.服务调用](java-notes/springcloud/10.服务调用.md)
+    - [11.服务网关](java-notes/springcloud/11.服务网关.md)
+    - [12.消息整合驱动](java-notes/springcloud/12.消息整合驱动.md)
+    - [13.binder实现](java-notes/springcloud/13.binder实现.md)
+    - [14.消息总线](java-notes/springcloud/14.消息总线.md)
+    - [15.分布式应用跟踪](java-notes/springcloud/15.分布式应用跟踪.md)
+  - [面试突击课](java-notes/面试突击课/)
+    - [面试1](java-notes/面试突击课/面试1/)
+      - [2](java-notes/面试突击课/面试1/2.md)
+- [计算机基础课](计算机基础课/)
+  - [datastruct](计算机基础课/datastruct.md)

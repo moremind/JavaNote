@@ -1,3 +1,4 @@
+- [返回首页](/)
 - [java-notes](java-notes/)
   - [java-basis](java-notes/java-basis/)
     - [stage-1](java-notes/java-basis/stage-1/)
@@ -38,5 +39,3 @@
   - [面试突击课](java-notes/面试突击课/)
     - [面试1](java-notes/面试突击课/面试1/)
       - [2](java-notes/面试突击课/面试1/2.md)
-- [计算机基础课](计算机基础课/)
-  - [datastruct](计算机基础课/datastruct.md)
