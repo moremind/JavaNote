@@ -1,0 +1,201 @@
+![image-20210220214910420](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210220214910420.png)
+
+![image-20210220224941319](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210220224941319.png)
+
+![image-20210220225322374](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210220225322374.png)
+
+
+
+![image-20210221113838063](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221113838063.png)
+
+
+
+![image-20210221153008981](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221153008981.png)
+
+![image-20210221153257562](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221153257562.png)
+
+![image-20210221153839465](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221153839465.png)
+
+![image-20210221154828166](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221154828166.png)
+
+ 
+
+## Servlet On Springboot
+
+* Servlet组件扫描
+  * @org.springframework.boot.web.servlet.ServletComponentScan
+    * 指定包路径扫描
+      * String[] value() default{}
+      * String[] basePackage() default{}
+    * Class<?> basePackageClasses() default {}
+  
+* 注解方式注册
+
+  * Servlet
+  * Filter
+    * 1.实现javax.servlet.Filter
+      * @org.springframework.web.filter.OncePerRequestFilter
+  * 监听器
+
+  ![image-20210221201247932](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221201247932.png)
+
+  代码：
+
+  ```java
+  @WebServlet(
+          name = "myServlet",
+          urlPatterns = "/myservlet",
+          initParams = {
+                  @WebInitParam(name = "myname", value = "myvalue")
+          }
+  )
+  public class MyServlet extends HttpServlet {
+      private String value;
+  
+      public void init(ServletConfig servletConfig) throws ServletException {
+          super.init(servletConfig);
+          value = servletConfig.getInitParameter("myname");
+      }
+  
+      @Override
+      protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+          Writer writer = resp.getWriter();
+  
+          ServletContext servletContext = req.getServletContext();
+  
+          servletContext.log("myServlet doGet...");
+  
+          writer.write("<html><body>Hello,World, My value = " + value + "</body></html>");
+      }
+  }
+  
+  ```
+
+  ```java
+  @WebFilter(servletNames = "myServlet")
+  public class MyFilter extends OncePerRequestFilter {
+      @Override
+      protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+  
+          ServletContext servletContext = request.getServletContext();
+  
+          servletContext.log("/myservlet was filtered");
+  
+          filterChain.doFilter(request, response);
+      }
+  }
+  ```
+
+  ```java
+  @WebListener
+  public class MyServletRequestListener implements ServletRequestListener {
+      @Override
+      public void requestInitialized(ServletRequestEvent sre) {
+          HttpServletRequest request = (HttpServletRequest) sre.getServletRequest();
+  
+          ServletContext servletContext = request.getServletContext();
+  
+          servletContext.log("request was Initialized");
+      }
+  
+      @Override
+      public void requestDestroyed(ServletRequestEvent sre) {
+          HttpServletRequest request = (HttpServletRequest) sre.getServletRequest();
+  
+          ServletContext servletContext = request.getServletContext();
+  
+          servletContext.log("request was Destroyed");
+      }
+  }
+  ```
+
+  
+
+* Springboot API方式注册
+
+![image-20210221201629678](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221201629678.png)
+
+![image-20210221210808296](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221210808296.png)
+
+代码：
+
+```java
+public class MyServlet2 extends HttpServlet {
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Writer writer = resp.getWriter();
+
+        ServletContext servletContext = req.getServletContext();
+
+        servletContext.log("myServlet doGet...");
+
+        writer.write("<html><body>Hello,World From MyServlet2</body></html>");
+    }
+}
+```
+
+```java
+public class MyFilter2 extends OncePerRequestFilter {
+    @Override
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+
+        doSomething();
+
+        filterChain.doFilter(request, response);
+
+    }
+
+    public void doSomething() {
+        RequestAttributes requestAttribute = RequestContextHolder.getRequestAttributes();
+
+        ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttribute;
+
+        HttpServletRequest request = servletRequestAttributes.getRequest();
+
+        ServletContext servletContext = request.getServletContext();
+
+        String requestURI = request.getRequestURI();
+
+        servletContext.log(requestURI + " was filtered");
+    }
+}
+```
+
+```java
+	@Bean
+    public static ServletRegistrationBean servletRegistrationBean() {
+	    ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean();
+
+	    servletRegistrationBean.setServlet(new MyServlet2());
+	    servletRegistrationBean.setName("my-servlet2");
+	    servletRegistrationBean.addUrlMappings("/springboot/myservlet2");
+	    servletRegistrationBean.addInitParameter("myname", "myvalue");
+
+	    return servletRegistrationBean;
+    }
+
+    @Bean
+    public static FilterRegistrationBean filterRegistrationBean() {
+	    FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
+
+	    filterRegistrationBean.setFilter(new MyFilter2());
+	    filterRegistrationBean.addServletNames("my-servlet2");
+	    filterRegistrationBean.setDispatcherTypes(DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.INCLUDE);
+
+	    return filterRegistrationBean;
+    }
+
+    @Bean
+    public static ServletListenerRegistrationBean servletListenerRegistrationBean() {
+	    ServletListenerRegistrationBean servletListenerRegistrationBean = new ServletListenerRegistrationBean();
+
+	    servletListenerRegistrationBean.setListener(new MyServletRequestListener());
+	    return servletListenerRegistrationBean;
+
+    }
+```
+
+
+
+![image-20210221211613433](https://blog-pic-lib-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210221211613433.png)
