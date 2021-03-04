@@ -6,6 +6,7 @@
   - [13.binder实现](java-notes/springcloud/13.binder实现.md)
   - [14.消息总线](java-notes/springcloud/14.消息总线.md)
   - [15.分布式应用跟踪](java-notes/springcloud/15.分布式应用跟踪.md)
+  - [16.综合整理](java-notes/springcloud/16.综合整理.md)
   - [2.springcloud-配置](java-notes/springcloud/2.springcloud-配置.md)
   - [3.springcloud-config-server](java-notes/springcloud/3.springcloud-config-server.md)
   - [4.服务发现注册](java-notes/springcloud/4.服务发现注册.md)
