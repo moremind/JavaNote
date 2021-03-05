@@ -1,5 +1,0 @@
-- [返回上一级 [java-basis]](java-notes/java-basis/)
-- [stage-2](java-notes/java-basis/stage-2/)
-  - [集合框架](java-notes/java-basis/stage-2/集合框架.md)
-  - [集合框架算法应用](java-notes/java-basis/stage-2/集合框架算法应用.md)
-  - [集合框架高级应用](java-notes/java-basis/stage-2/集合框架高级应用.md)
