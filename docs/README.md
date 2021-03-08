@@ -75,7 +75,7 @@
       - [35.39_分布式服务接口请求的顺序性如何保证？](java-notes/(5).interview-lesson/interview-1/35.39_分布式服务接口请求的顺序性如何保证？.md)
       - [36.40_如何自己设计一个类似Dubbo的RPC框架？](java-notes/(5).interview-lesson/interview-1/36.40_如何自己设计一个类似Dubbo的RPC框架？.md)
       - [37.41_说说zookeeper一般都有哪些使用场景？](java-notes/(5).interview-lesson/interview-1/37.41_说说zookeeper一般都有哪些使用场景？.md)
-      - [38.42_使用Redis如何设计分布式锁？使用Zookeeper来设计分布式锁可以吗？以上两种分布式锁的实现方式哪种效率比较高？](java-notes/(5).interview-lesson/interview-1/38.42_使用Redis如何设计分布式锁？使用Zookeeper来设计分布式锁可以吗？以上两种分布式锁的实现方式哪种效率比较高？.md)
+      - [38.42_使用Redis、Zookeeper如何设计分布式锁？以上两种分布式锁的实现方式哪种效率比较高？](java-notes/(5).interview-lesson/interview-1/38.42_使用Redis、Zookeeper如何设计分布式锁？以上两种分布式锁的实现方式哪种效率比较高？.md)
       - [39.43_集群部署时的分布式Session如何实现？](java-notes/(5).interview-lesson/interview-1/39.43_集群部署时的分布式Session如何实现？.md)
       - [40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC如果出现网络连不通怎么办？XA的一致性如何保证？](java-notes/(5).interview-lesson/interview-1/40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC如果出现网络连不通怎么办？XA的一致性如何保证？.md)
       - [41.45_如何设计一个高并发系统？](java-notes/(5).interview-lesson/interview-1/41.45_如何设计一个高并发系统？.md)
