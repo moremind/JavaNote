@@ -32,7 +32,7 @@
   - [30.34_Dubbo支持哪些序列化协议？说一下Hessian的数据结构？PB知道吗？为什么PB的效率是最高的？](java-notes/(5).interview-lesson/interview-1/30.34_Dubbo支持哪些序列化协议？说一下Hessian的数据结构？PB知道吗？为什么PB的效率是最高的？.md)
   - [31.35_dubbo支持哪些负载均衡、高可用以及动态代理的策略？](java-notes/(5).interview-lesson/interview-1/31.35_dubbo支持哪些负载均衡、高可用以及动态代理的策略？.md)
   - [32.36_Dubbo的spi思想是什么？](java-notes/(5).interview-lesson/interview-1/32.36_Dubbo的spi思想是什么？.md)
-  - [33.如何基于Dubbo进行服务治理、服务降级、失败重试以及超时重试？](java-notes/(5).interview-lesson/interview-1/33.如何基于Dubbo进行服务治理、服务降级、失败重试以及超时重试？.md)
+  - [33.37_如何基于Dubbo进行服务治理、服务降级、失败重试以及超时重试？](java-notes/(5).interview-lesson/interview-1/33.37_如何基于Dubbo进行服务治理、服务降级、失败重试以及超时重试？.md)
   - [34.38_分布式系统中接口的幂等性该如何保证？比如不能重复扣款？](java-notes/(5).interview-lesson/interview-1/34.38_分布式系统中接口的幂等性该如何保证？比如不能重复扣款？.md)
   - [35.39_分布式服务接口请求的顺序性如何保证？](java-notes/(5).interview-lesson/interview-1/35.39_分布式服务接口请求的顺序性如何保证？.md)
   - [36.40_如何自己设计一个类似Dubbo的RPC框架？](java-notes/(5).interview-lesson/interview-1/36.40_如何自己设计一个类似Dubbo的RPC框架？.md)
