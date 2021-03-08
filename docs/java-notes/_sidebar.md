@@ -78,7 +78,7 @@
       - [37.41_说说zookeeper一般都有哪些使用场景？](java-notes/(5).interview-lesson/interview-1/37.41_说说zookeeper一般都有哪些使用场景？.md)
       - [38.42_使用Redis如何设计分布式锁？使用Zookeeper来设计分布式锁可以吗？以上两种分布式锁的实现方式哪种效率比较高？](java-notes/(5).interview-lesson/interview-1/38.42_使用Redis如何设计分布式锁？使用Zookeeper来设计分布式锁可以吗？以上两种分布式锁的实现方式哪种效率比较高？.md)
       - [39.43_集群部署时的分布式Session如何实现？](java-notes/(5).interview-lesson/interview-1/39.43_集群部署时的分布式Session如何实现？.md)
-      - [40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC 如果出现网络连不通怎么办？XA 的一致性如何保证？](java-notes/(5).interview-lesson/interview-1/40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC 如果出现网络连不通怎么办？XA 的一致性如何保证？.md)
+      - [40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC如果出现网络连不通怎么办？XA的一致性如何保证？](java-notes/(5).interview-lesson/interview-1/40.44_分布式事务了解吗？你们如何解决分布式事务问题的？TCC如果出现网络连不通怎么办？XA的一致性如何保证？.md)
       - [41.45_如何设计一个高并发系统？](java-notes/(5).interview-lesson/interview-1/41.45_如何设计一个高并发系统？.md)
       - [42.46_分库分表连环炮](java-notes/(5).interview-lesson/interview-1/42.46_分库分表连环炮.md)
       - [43.47_为什么要分库分表（设计高并发系统的时候，数据库层面该如何设计）？用过哪些分库分表中间件？不同的分库分表中间件都有什么优点和缺点？你们具体是如何对数据库如何进行垂直拆分或水平拆分的？](java-notes/(5).interview-lesson/interview-1/43.47_为什么要分库分表（设计高并发系统的时候，数据库层面该如何设计）？用过哪些分库分表中间件？不同的分库分表中间件都有什么优点和缺点？你们具体是如何对数据库如何进行垂直拆分或水平拆分的？.md)
