@@ -6,3 +6,5 @@
   - [4.Java内存模型的理解](java-notes/(5).interview-lesson/interview-3/4.Java内存模型的理解.md)
   - [5.Spring-IOCAOP机制](java-notes/(5).interview-lesson/interview-3/5.Spring-IOCAOP机制.md)
   - [6.JVM](java-notes/(5).interview-lesson/interview-3/6.JVM.md)
+  - [7.MySQL](java-notes/(5).interview-lesson/interview-3/7.MySQL.md)
+  - [8.Java-IO](java-notes/(5).interview-lesson/interview-3/8.Java-IO.md)
