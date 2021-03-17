@@ -47,3 +47,4 @@
   - [45.49_如何设计可以动态扩容缩容的分库分表方案？](java-notes/(5).interview-lesson/interview-1/45.49_如何设计可以动态扩容缩容的分库分表方案？.md)
   - [46.50_分库分表之后，id主键如何处理？](java-notes/(5).interview-lesson/interview-1/46.50_分库分表之后，id主键如何处理？.md)
   - [47.51_如何实现MySQL的读写分离？MySQL主从复制原理是啥？如何解决MySQL主从同步的延时问题？](java-notes/(5).interview-lesson/interview-1/47.51_如何实现MySQL的读写分离？MySQL主从复制原理是啥？如何解决MySQL主从同步的延时问题？.md)
+  - [48_52.Hystrix 介绍](java-notes/(5).interview-lesson/interview-1/48_52.Hystrix 介绍.md)
