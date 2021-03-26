@@ -1,3 +1,0 @@
-- [返回上一级 [Maintenance]](Maintenance/)
-- [linux](Maintenance/linux/)
-  - [linux常用命令](Maintenance/linux/linux常用命令.md)

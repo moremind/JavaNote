@@ -1,3 +1,0 @@
-- [返回首页](/)
-- [CS-Lesson](CS-Lesson/)
-  - [datastruct](CS-Lesson/datastruct.md)

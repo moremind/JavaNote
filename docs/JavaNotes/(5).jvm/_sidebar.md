@@ -1,3 +1,0 @@
-- [返回上一级 [JavaNotes]](JavaNotes/)
-- [(5).jvm](JavaNotes/(5).jvm/)
-  - [JVM基础](JavaNotes/(5).jvm/JVM基础.md)

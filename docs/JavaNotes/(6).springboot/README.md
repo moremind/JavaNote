@@ -1,7 +1,0 @@
-- [返回上一级 [JavaNotes]](JavaNotes/)
-- [(6).springboot](JavaNotes/(6).springboot/)
-  - [springboot-lesson-1](JavaNotes/(6).springboot/springboot-lesson-1/)
-    - [1.springboot-web](JavaNotes/(6).springboot/springboot-lesson-1/1.springboot-web.md)
-    - [5.web容器](JavaNotes/(6).springboot/springboot-lesson-1/5.web容器.md)
-    - [6.数据库JDBC](JavaNotes/(6).springboot/springboot-lesson-1/6.数据库JDBC.md)
-    - [7.mybatis](JavaNotes/(6).springboot/springboot-lesson-1/7.mybatis.md)
