@@ -1,4 +1,0 @@
-- [返回上一级 [(6).middleware]](java-notes/(6).middleware/)
-- [redis](java-notes/(6).middleware/redis/)
-  - [1.redis基础](java-notes/(6).middleware/redis/1.redis基础.md)
-  - [2.redis-knowledge](java-notes/(6).middleware/redis/2.redis-knowledge.md)
