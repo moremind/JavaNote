@@ -3,6 +3,7 @@
   - [1.Java-Net](2.JavaNotes/(2).java-high/1.Java-Net/)
   - [2.Java-NIO](2.JavaNotes/(2).java-high/2.Java-NIO/)
   - [3.Java-JUC](2.JavaNotes/(2).java-high/3.Java-JUC/)
+    - [1.Volatile关键字](2.JavaNotes/(2).java-high/3.Java-JUC/1.Volatile关键字.md)
   - [4.Java-Function(函数式编程)](2.JavaNotes/(2).java-high/4.Java-Function(函数式编程)/)
   - [5.Java-Stream(Java流式编程)](2.JavaNotes/(2).java-high/5.Java-Stream(Java流式编程)/)
   - [6.Java-Reflect(Java反射)](2.JavaNotes/(2).java-high/6.Java-Reflect(Java反射)/)

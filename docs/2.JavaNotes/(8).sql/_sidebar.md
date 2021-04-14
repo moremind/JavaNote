@@ -1,6 +1,0 @@
-- [返回上一级 [2.JavaNotes]](2.JavaNotes/)
-- [(8).sql](2.JavaNotes/(8).sql/)
-  - [mysql](2.JavaNotes/(8).sql/mysql/)
-    - [1.mysql-一条sql语句如何执行的](2.JavaNotes/(8).sql/mysql/1.mysql-一条sql语句如何执行的.md)
-    - [2.事务隔离：为什么你改了我还看不见？](2.JavaNotes/(8).sql/mysql/2.事务隔离：为什么你改了我还看不见？.md)
-    - [3.数据库索引](2.JavaNotes/(8).sql/mysql/3.数据库索引.md)
