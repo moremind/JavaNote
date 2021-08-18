@@ -1,0 +1,6 @@
+- [返回上一级 [(9).gupao-lesson]](2.JavaNotes/(9).gupao-lesson/)
+- [1.架构师内功心法-设计模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/)
+  - [1.单例模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/1.单例模式.md)
+  - [2.工厂模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/2.工厂模式.md)
+  - [3.代理模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/3.代理模式.md)
+  - [4.策略模式和委派模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/4.策略模式和委派模式.md)
