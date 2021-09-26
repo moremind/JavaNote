@@ -7,3 +7,7 @@
     - [4.策略模式和委派模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/4.策略模式和委派模式.md)
     - [5.模版方法与适配器方法](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/5.模版方法与适配器方法.md)
     - [6.装饰者模式和观察者模式](2.JavaNotes/(9).gupao-lesson/1.架构师内功心法-设计模式/6.装饰者模式和观察者模式.md)
+  - [2.架构师的审美观](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/)
+    - [1.Spring源码](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/)
+      - [01.Spring框架的前世今生以及源码构建](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring框架的前世今生以及源码构建/)
+        - [01.Spring框架的前世今生以及源码构建](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring框架的前世今生以及源码构建/01.Spring框架的前世今生以及源码构建.md)

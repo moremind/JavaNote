@@ -1,5 +1,6 @@
 - [返回上一级 [2.JavaNotes]](2.JavaNotes/)
 - [(1).java-basis](2.JavaNotes/(1).java-basis/)
+  - [Java值传递与引用传递](2.JavaNotes/(1).java-basis/Java值传递与引用传递.md)
   - [stage-1](2.JavaNotes/(1).java-basis/stage-1/)
     - [Java函数式设计](2.JavaNotes/(1).java-basis/stage-1/Java函数式设计.md)
     - [Java基础](2.JavaNotes/(1).java-basis/stage-1/Java基础.md)
