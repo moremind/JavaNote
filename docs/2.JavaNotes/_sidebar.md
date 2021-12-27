@@ -138,4 +138,5 @@
           - [02.用300行代码手写提炼Spring的核心原理](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/02.用300行代码手写提炼Spring的核心原理.md)
           - [03.一步一步手绘Spring-IOC运行时序图](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/03.一步一步手绘Spring-IOC运行时序图.md)
           - [04.一步一步手绘Spring-DI运行时序图](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/04.一步一步手绘Spring-DI运行时序图.md)
+          - [05.一步一步手绘Spring-AOP运行时序图](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/05.一步一步手绘Spring-AOP运行时序图.md)
           - [pic](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/pic/)
