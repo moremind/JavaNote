@@ -18,4 +18,7 @@
         - [06.一步一步手绘SpringMVC运行时序图](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/06.一步一步手绘SpringMVC运行时序图.md)
         - [07.用30个类高仿真提炼纯手写Spring框架V2.0之IOC与DI](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/07.用30个类高仿真提炼纯手写Spring框架V2.0之IOC与DI.md)
         - [08.Spring事务传播原理及数据库事务操作原理](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/08.Spring事务传播原理及数据库事务操作原理.md)
+        - [09.基于Spring JDBC手写定制自己的ORM框架](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/09.基于Spring JDBC手写定制自己的ORM框架.md)
+        - [10.Spring5新特性简述及经典的高频面试题分析](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/10.Spring5新特性简述及经典的高频面试题分析.md)
+        - [11.MyBatis应用分析与最佳实践](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/11.MyBatis应用分析与最佳实践.md)
         - [pic](2.JavaNotes/(9).gupao-lesson/2.架构师的审美观/1.Spring源码/01.Spring源码核心骗/pic/)
