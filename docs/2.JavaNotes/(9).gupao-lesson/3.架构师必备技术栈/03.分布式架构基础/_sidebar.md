@@ -1,2 +1,5 @@
 - [返回上一级 [3.架构师必备技术栈]](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/)
 - [03.分布式架构基础](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/03.分布式架构基础/)
+  - [1.HTTP及HTTPS协议原理](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/03.分布式架构基础/1.HTTP及HTTPS协议原理.md)
+  - [2.序列化和反序列化原理分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/03.分布式架构基础/2.序列化和反序列化原理分析.md)
+  - [3.RPC通信的原理以及手写实现](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/03.分布式架构基础/3.RPC通信的原理以及手写实现.md)
