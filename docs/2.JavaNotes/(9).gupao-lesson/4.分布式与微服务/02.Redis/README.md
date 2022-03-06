@@ -2,5 +2,4 @@
 - [02.Redis](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/)
   - [1.Redis基础](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/1.Redis基础.md)
   - [2.Redis原理](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/2.Redis原理.md)
-  - [6.Redis分布式1](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/6.Redis分布式1.md)
-  - [7.Redis分布式2](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/7.Redis分布式2.md)
+  - [3.Redis分布式](2.JavaNotes/(9).gupao-lesson/4.分布式与微服务/02.Redis/3.Redis分布式.md)
