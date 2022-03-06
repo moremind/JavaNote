@@ -8,6 +8,7 @@
     - [5.常见并发工具的基本原理分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/01.分布式并发编程/5.常见并发工具的基本原理分析.md)
     - [6.ConcurrentHashMap的原理分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/01.分布式并发编程/6.ConcurrentHashMap的原理分析.md)
     - [7.阻塞队列、原子操作的原理分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/01.分布式并发编程/7.阻塞队列、原子操作的原理分析.md)
+    - [8.ThreadLocal底层原理分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/01.分布式并发编程/8.ThreadLocal底层原理分析.md)
   - [02.漫谈分布式架构](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/02.漫谈分布式架构/)
     - [1.分布式架构的发展及演进](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/02.漫谈分布式架构/1.分布式架构的发展及演进.md)
     - [2.远程通信协议原理](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/02.漫谈分布式架构/2.远程通信协议原理.md)
