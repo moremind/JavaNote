@@ -1,2 +1,7 @@
 - [返回上一级 [3.架构师必备技术栈]](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/)
 - [05.分布式服务治理](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/)
+  - [04.微服务架构下的服务注册中心设计及实战](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/04.微服务架构下的服务注册中心设计及实战.md)
+  - [05.分布式协调服务Zookeeper应用实战](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/05.分布式协调服务Zookeeper应用实战.md)
+  - [06.深入分析Zookeeper核心原理](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/06.深入分析Zookeeper核心原理.md)
+  - [07.深入分析Zookeeper的Leader选举原理](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/07.深入分析Zookeeper的Leader选举原理.md)
+  - [08.事务请求以及Watcher源码分析](2.JavaNotes/(9).gupao-lesson/3.架构师必备技术栈/05.分布式服务治理/08.事务请求以及Watcher源码分析.md)
