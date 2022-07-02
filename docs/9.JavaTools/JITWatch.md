@@ -26,7 +26,7 @@ b.将下载好的hsdis-amd64.dylib文件放置在JDK路径下的`\jre\lib`目录
 
 使用命令`java -XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -version`验证是否配置成功。如果出现如下所示则说明配置成功。
 
-![image-20210414230849483](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414230849483.png)
+![image-20210414230849483](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414230849483.png)
 
 ### 5.自行构建hsdis(如果你有兴趣的话)
 
@@ -63,7 +63,7 @@ gradlew clean build run
 
 a.启动，使用`java -jar jitwatch-ui-1.4.0-shaded-win.jar`启动jitwatch，启动成功后如下所示
 
-![image-20210414232505669](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414232505669.png)
+![image-20210414232505669](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414232505669.png)
 
 b.配置，点击`sandbox`按钮打开窗口，再点击`Configure Sandbox`按钮，配置如下几个参数
 
@@ -73,13 +73,13 @@ b.配置，点击`sandbox`按钮打开窗口，再点击`Configure Sandbox`按�
 >
 > 3.java运行参数，添加hsdis的运行参数配置
 
-![image-20210414233652204](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414233652204.png)
+![image-20210414233652204](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414233652204.png)
 
 c.运行，点击`open`按钮打开需要编译的java代码，点击`Run`按钮运行得到下图所示
 
-![image-20210414232726380](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414232726380.png)
+![image-20210414232726380](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414232726380.png)
 
-![image-20210414234418226](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414234418226.png)
+![image-20210414234418226](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414234418226.png)
 
 
 
@@ -87,13 +87,13 @@ c.运行，点击`open`按钮打开需要编译的java代码，点击`Run`按钮
 
 #### 模块化查看字节码和汇编码
 
-![image-20210414234700267](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414234700267.png)
+![image-20210414234700267](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414234700267.png)
 
 #### 使用topList查看资源占用率
 
 在JITWatch窗口点击`TopList`按钮，即可查看资源占用率。
 
-![image-20210414235239556](https://gitee.com/forge-logic/images-lib/raw/master/img/image-20210414235239556.png)
+![image-20210414235239556](https://new-blog-1251602255.cos.ap-shanghai.myqcloud.com/img/image-20210414235239556.png)
 
 #### 更多资料
 
